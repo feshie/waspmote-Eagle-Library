@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="WASP">
+<pad name="S1" x="-33.02" y="12.7" drill="0.8"/>
+<pad name="S2" x="-30.48" y="12.7" drill="0.8"/>
+<pad name="S3" x="-33.02" y="10.16" drill="0.8"/>
+<pad name="S4" x="-30.48" y="10.16" drill="0.8" shape="square"/>
+<pad name="S5" x="-33.02" y="7.62" drill="0.8"/>
+<pad name="S6" x="-30.48" y="7.62" drill="0.8"/>
+<pad name="S7" x="-33.02" y="5.08" drill="0.8"/>
+<pad name="S8" x="-30.48" y="5.08" drill="0.8"/>
+<pad name="S9" x="-33.02" y="2.54" drill="0.8"/>
+<pad name="S10" x="-30.48" y="2.54" drill="0.8"/>
+<pad name="S11" x="-33.02" y="0" drill="0.8"/>
+<pad name="S12" x="-30.48" y="0" drill="0.8"/>
+<pad name="S13" x="-33.02" y="-2.54" drill="0.8"/>
+<pad name="S14" x="-30.48" y="-2.54" drill="0.8"/>
+<pad name="S15" x="-33.02" y="-5.08" drill="0.8"/>
+<pad name="S16" x="-30.48" y="-5.08" drill="0.8"/>
+<pad name="S17" x="-33.02" y="-7.62" drill="0.8"/>
+<pad name="S18" x="-30.48" y="-7.62" drill="0.8"/>
+<pad name="S19" x="-33.02" y="-10.16" drill="0.8"/>
+<pad name="S20" x="-30.48" y="-10.16" drill="0.8"/>
+<pad name="S21" x="-33.02" y="-12.7" drill="0.8"/>
+<pad name="S22" x="-30.48" y="-12.7" drill="0.8"/>
+<pad name="S23" x="-33.02" y="-15.24" drill="0.8"/>
+<pad name="S24" x="-30.48" y="-15.24" drill="0.8"/>
+<pad name="A1" x="10.16" y="15.24" drill="0.8" rot="R180"/>
+<pad name="A2" x="10.16" y="12.7" drill="0.8" rot="R180"/>
+<pad name="A3" x="10.16" y="10.16" drill="0.8" rot="R180"/>
+<pad name="A4" x="10.16" y="7.62" drill="0.8" rot="R180"/>
+<pad name="A5" x="10.16" y="5.08" drill="0.8" rot="R180"/>
+<pad name="A6" x="10.16" y="2.54" drill="0.8" rot="R180"/>
+<pad name="A7" x="10.16" y="0" drill="0.8" rot="R180"/>
+<pad name="A8" x="10.16" y="-2.54" drill="0.8" rot="R180"/>
+<pad name="A9" x="10.16" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="A10" x="10.16" y="-7.62" drill="0.8" rot="R180"/>
+<pad name="A11" x="10.16" y="-10.16" drill="0.8" rot="R180"/>
+<pad name="A12" x="10.16" y="-12.7" drill="0.8" rot="R180"/>
+<wire x1="-35.56" y1="-34.32" x2="38.44" y2="-34.32" width="0.127" layer="21"/>
+<wire x1="38.44" y1="-34.32" x2="38.44" y2="17.68" width="0.127" layer="21"/>
+<wire x1="38.44" y1="17.68" x2="-35.56" y2="17.68" width="0.127" layer="21"/>
+<wire x1="-35.56" y1="17.68" x2="-35.56" y2="-34.32" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WASPMOTE-SENSOR-BOARD">
+<pin name="ANALOG" x="-63.5" y="15.24" length="middle"/>
+<pin name="DIGITAL8" x="-10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="DIGITAL6" x="-10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="DIGITAL4" x="-10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="DIGITAL2" x="-10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="RESERVED" x="-30.48" y="-30.48" length="middle" rot="R90"/>
+<pin name="ANALOG6" x="-63.5" y="10.16" length="middle"/>
+<pin name="ANALOG4" x="-63.5" y="5.08" length="middle"/>
+<pin name="ANALOG2" x="-63.5" y="0" length="middle"/>
+<pin name="3V3" x="-38.1" y="22.86" length="middle" rot="R270"/>
+<pin name="GPS-POWER" x="-40.64" y="22.86" length="middle" rot="R270"/>
+<pin name="SDA" x="-10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="DIGITAL7" x="-10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="-40.64" y="-30.48" length="middle" rot="R90"/>
+<pin name="DIGITAL5" x="-10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="DIGITAL3" x="-10.16" y="0" length="middle" rot="R180"/>
+<pin name="DIGITAL1" x="-10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="ANALOG7" x="-63.5" y="12.7" length="middle"/>
+<pin name="ANALOG5" x="-63.5" y="7.62" length="middle"/>
+<pin name="ANALOG3" x="-63.5" y="2.54" length="middle"/>
+<pin name="ANALOG1" x="-63.5" y="-2.54" length="middle"/>
+<pin name="5V" x="-33.02" y="22.86" length="middle" rot="R270"/>
+<pin name="SCL" x="-10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="UART1_TX" x="-63.5" y="-7.62" length="middle"/>
+<pin name="UART1_RX" x="-63.5" y="-10.16" length="middle"/>
+<pin name="UART2_TX" x="-63.5" y="-12.7" length="middle"/>
+<pin name="UART2_RX" x="-63.5" y="-15.24" length="middle"/>
+<pin name="BATTERY" x="-35.56" y="22.86" length="middle" rot="R270"/>
+<pin name="SCK" x="-10.16" y="-15.24" length="middle" rot="R180"/>
+<pin name="RXD1" x="-63.5" y="-20.32" length="middle"/>
+<pin name="TXD1" x="-63.5" y="-22.86" length="middle"/>
+<pin name="MOSI" x="-10.16" y="-20.32" length="middle" rot="R180"/>
+<pin name="MISO" x="-10.16" y="-22.86" length="middle" rot="R180"/>
+<wire x1="-58.42" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-58.42" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-58.42" y1="-25.4" x2="-58.42" y2="17.78" width="0.254" layer="94"/>
+<text x="-53.34" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WASP">
+<gates>
+<gate name="G$1" symbol="WASPMOTE-SENSOR-BOARD" x="38.1" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="WASP">
+<connects>
+<connect gate="G$1" pin="3V3" pad="A10 S2 S19"/>
+<connect gate="G$1" pin="5V" pad="S22"/>
+<connect gate="G$1" pin="ANALOG" pad="S1"/>
+<connect gate="G$1" pin="ANALOG1" pad="S20"/>
+<connect gate="G$1" pin="ANALOG2" pad="S17"/>
+<connect gate="G$1" pin="ANALOG3" pad="S18"/>
+<connect gate="G$1" pin="ANALOG4" pad="S15"/>
+<connect gate="G$1" pin="ANALOG5" pad="S16"/>
+<connect gate="G$1" pin="ANALOG6" pad="S13"/>
+<connect gate="G$1" pin="ANALOG7" pad="S14"/>
+<connect gate="G$1" pin="BATTERY" pad="A5"/>
+<connect gate="G$1" pin="DIGITAL1" pad="S12"/>
+<connect gate="G$1" pin="DIGITAL2" pad="S9"/>
+<connect gate="G$1" pin="DIGITAL3" pad="S10"/>
+<connect gate="G$1" pin="DIGITAL4" pad="S7"/>
+<connect gate="G$1" pin="DIGITAL5" pad="S8"/>
+<connect gate="G$1" pin="DIGITAL6" pad="S5"/>
+<connect gate="G$1" pin="DIGITAL7" pad="S6"/>
+<connect gate="G$1" pin="DIGITAL8" pad="S3"/>
+<connect gate="G$1" pin="GND" pad="A6 S4"/>
+<connect gate="G$1" pin="GPS-POWER" pad="S21"/>
+<connect gate="G$1" pin="MISO" pad="A12"/>
+<connect gate="G$1" pin="MOSI" pad="A11"/>
+<connect gate="G$1" pin="RESERVED" pad="S11"/>
+<connect gate="G$1" pin="RXD1" pad="A8"/>
+<connect gate="G$1" pin="SCK" pad="A7"/>
+<connect gate="G$1" pin="SCL" pad="S24"/>
+<connect gate="G$1" pin="SDA" pad="S23"/>
+<connect gate="G$1" pin="TXD1" pad="A9"/>
+<connect gate="G$1" pin="UART1_RX" pad="A2"/>
+<connect gate="G$1" pin="UART1_TX" pad="A1"/>
+<connect gate="G$1" pin="UART2_RX" pad="A4"/>
+<connect gate="G$1" pin="UART2_TX" pad="A3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
